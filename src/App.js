@@ -15,10 +15,8 @@ import Explore from './pages/explore/Explore';
 
 
 function App() {
-  const {url} = useSelector((state) => state).home
-  console.log(url)
   const dispatch = useDispatch();
-
+  const {url} = useSelector((state) => state.home);
   useEffect(() =>{
     fetchAPI();
   }, []);
@@ -26,7 +24,6 @@ function App() {
   const fetchAPI = () => {
     fetchDataFromAPI('/configuration')
       .then((res) => {
-        console.log(res);
 
         const url = {
           backdrop: res.images.secure_base_url + "original",
@@ -41,7 +38,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    {/* <Header /> */}
+    <Header />
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/:mediaType/:id" element={<Details />}/>
@@ -51,7 +48,7 @@ function App() {
 
 
     </Routes>
-    {/* <Footer /> */}
+    <Footer />
     </BrowserRouter>
   );
 }
