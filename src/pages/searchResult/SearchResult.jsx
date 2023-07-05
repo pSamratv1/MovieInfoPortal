@@ -4,7 +4,7 @@ import "./style.scss";
 const SearchResult = () => {
   return (
     <div>
-      
+      serach SearchResult
     </div>
   )
 }
