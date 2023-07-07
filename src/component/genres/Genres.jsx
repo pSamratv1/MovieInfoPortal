@@ -1,5 +1,5 @@
 import React from 'react';
-import { UseSelector, useSelector } from 'react-redux/es/hooks/useSelector';
+import { useSelector } from 'react-redux/es/hooks/useSelector';
 import "./style.scss";
 
 const Genres = ({data}) => {
@@ -7,12 +7,12 @@ const Genres = ({data}) => {
   return (
     <div className='genres'>
       {data?.map((genre) => {
-        if(!genres[genre]?.name) return;
+        if(!genres[genre]?.name) return
         return (
             <div className="genre" key={genre}>
                 {genres[genre]?.name}
             </div>
-        )
+        );
       })}
     </div>
   )
