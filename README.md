@@ -46,7 +46,7 @@ Move into the project's root directory.
 3. Install the dependencies:
 
 ```bash  
-$npm install 
+$ npm install 
 ``` 
 This command will install all the required dependencies for the project, as specified in the package.json file.
 
@@ -74,7 +74,7 @@ Feel free to explore the application and test its functionality.
 
 The project is built using the following technologies:
 
-1. @reduxjs/toolkit (version 1.9.5)
+1. @reduxjs/toolkit (version 1.9.5):
 Redux Toolkit is a library that simplifies Redux setup and provides utilities for efficient Redux development.
 
 2. @testing-library/jest-dom (version 5.16.5)
@@ -101,34 +101,34 @@ React Circular Progressbar is a circular progress bar component for React.
 9. react-dom (version 18.2.0)
 React DOM is the entry point for working with the DOM in the React application.
 
-### react-icons (version 4.10.1)
+10. react-icons (version 4.10.1)
 React Icons provides a collection of popular icon packs as React components.
 
-10. react-infinite-scroll-component (version 6.1.0)
+11. react-infinite-scroll-component (version 6.1.0)
 React Infinite Scroll Component provides an infinite scroll behavior for scrolling through long lists.
 
-11. react-lazy-load-image-component (version 1.6.0)
+12. react-lazy-load-image-component (version 1.6.0)
 React Lazy Load Image Component is a wrapper component for lazy-loading images in React.
 
-12. react-player (version 2.12.0)
+13. react-player (version 2.12.0)
 React Player is a flexible video player component for React.
 
-13. react-redux (version 8.1.1)
+14. react-redux (version 8.1.1)
 React Redux is the official Redux binding for React, allowing the use of Redux with React components.
 
-14. react-router-dom (version 6.14.1)
+15. react-router-dom (version 6.14.1)
 React Router DOM provides routing functionality for React applications.
 
-15. react-scripts (version 5.0.1)
+16. react-scripts (version 5.0.1)
 React Scripts provides scripts and configuration for the development server, building, and testing the React application.
 
-16. react-select (version 5.7.3)
+17. react-select (version 5.7.3)
 React Select is a flexible and customizable select input component for React.
 
-17. sass (version 1.63.6)
+18. sass (version 1.63.6)
 Sass is a CSS extension language used for styling the React components.
 
-18. web-vitals (version 2.1.4)
+19. web-vitals (version 2.1.4)
 Web Vitals is a library for measuring and reporting important user-centric web performance metrics.
 
 To install these dependencies, you can run the following command in the project directory:
