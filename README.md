@@ -28,7 +28,10 @@ This is a README template for the React Movie Information Portal project. This p
 
 1. Clone the repository:
 
-```bash git clone https://github.com/your-username/react-movie-information-portal.git \```
+```bash 
+$ git clone https://github.com/your-username/react-movie-information-portal.git 
+```
+
 This will create a local copy of the project on your machine.
 
 
@@ -40,7 +43,9 @@ Move into the project's root directory.
 
 3. Install the dependencies:
 
-```  npm install ``` 
+```bash  
+npm install 
+``` 
 This command will install all the required dependencies for the project, as specified in the package.json file.
 
 
@@ -49,7 +54,9 @@ This command will install all the required dependencies for the project, as spec
 
 1. Start the development server:
 
-## npm start
+```bash
+npm start
+```
 This command will start the development server, which will compile the project and make it accessible through a local server.
 
 2. Open a web browser and visit http://localhost:3000 to access the application.
@@ -125,7 +132,9 @@ Web Vitals is a library for measuring and reporting important user-centric web p
 To install these dependencies, you can run the following command in the project directory:
 
 
-## npm install
+```bash
+npm install
+```
 This will install all the necessary dependencies specified in the package.json file.
 
 Note: The versions mentioned above are the ones available at the time of the template creation. Please make sure to use the appropriate versions or check for updates as per your project requirements and compatibility.
