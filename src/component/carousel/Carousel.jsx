@@ -61,7 +61,7 @@ const Carousel = ({data, loading, endpoint, title}) => {
 
                         const posterUrl = item.poster_path ? url.poster + item.poster_path : PosterFallBack; 
                         return (
-                            <div className="carouselItem" key={item.id} onClick={() => navigate(`${item.media_type || endpoint}/${item.id}`)}>
+                            <div className="carouselItem" key={item.id} onClick={() => navigate(`/${item.media_type || endpoint}/${item.id}`)}>
                                 <div className="posterBlock">
                                     <Img className="img" src={posterUrl} alt="poster"/>
                                     <Rating rating={item.vote_average.toFixed(1)}/>
