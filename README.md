@@ -28,19 +28,19 @@ This is a README template for the React Movie Information Portal project. This p
 
 1. Clone the repository:
 
-## git clone https://github.com/your-username/react-movie-information-portal.git
+```bash git clone https://github.com/your-username/react-movie-information-portal.git \```
 This will create a local copy of the project on your machine.
 
 
 2. Navigate to the project directory:
 
-## cd react-movie-information-portal
+``` cd react-movie-information-portal ```
 Move into the project's root directory.
 
 
 3. Install the dependencies:
 
-## npm install
+```  npm install ``` 
 This command will install all the required dependencies for the project, as specified in the package.json file.
 
 
