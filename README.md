@@ -37,14 +37,16 @@ This will create a local copy of the project on your machine.
 
 2. Navigate to the project directory:
 
-``` cd react-movie-information-portal ```
+```bash
+$ cd react-movie-information-portal 
+```
 Move into the project's root directory.
 
 
 3. Install the dependencies:
 
 ```bash  
-npm install 
+$npm install 
 ``` 
 This command will install all the required dependencies for the project, as specified in the package.json file.
 
@@ -55,7 +57,7 @@ This command will install all the required dependencies for the project, as spec
 1. Start the development server:
 
 ```bash
-npm start
+$ npm start
 ```
 This command will start the development server, which will compile the project and make it accessible through a local server.
 
@@ -133,7 +135,7 @@ To install these dependencies, you can run the following command in the project 
 
 
 ```bash
-npm install
+$ npm install
 ```
 This will install all the necessary dependencies specified in the package.json file.
 
