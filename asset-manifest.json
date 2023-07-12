@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieInfoPortal/static/css/main.9c394af6.css",
-    "main.js": "/MovieInfoPortal/static/js/main.6cbf6b45.js",
+    "main.js": "/MovieInfoPortal/static/js/main.8596cd01.js",
     "static/js/787.352ee719.chunk.js": "/MovieInfoPortal/static/js/787.352ee719.chunk.js",
     "static/media/no-poster.png": "/MovieInfoPortal/static/media/no-poster.de8cb0a7786e6bf2b2de.png",
     "static/media/avatar.png": "/MovieInfoPortal/static/media/avatar.0affc1eeb2b145c80bd1.png",
@@ -9,11 +9,11 @@
     "static/media/movix-logo.svg": "/MovieInfoPortal/static/media/movix-logo.9d67d13c155c38743f313bd4784d0c7b.svg",
     "index.html": "/MovieInfoPortal/index.html",
     "main.9c394af6.css.map": "/MovieInfoPortal/static/css/main.9c394af6.css.map",
-    "main.6cbf6b45.js.map": "/MovieInfoPortal/static/js/main.6cbf6b45.js.map",
+    "main.8596cd01.js.map": "/MovieInfoPortal/static/js/main.8596cd01.js.map",
     "787.352ee719.chunk.js.map": "/MovieInfoPortal/static/js/787.352ee719.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c394af6.css",
-    "static/js/main.6cbf6b45.js"
+    "static/js/main.8596cd01.js"
   ]
 }
