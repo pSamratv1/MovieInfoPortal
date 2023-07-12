@@ -55,7 +55,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
     <Header />
     <Routes>
       <Route path="/" element={<Home />}/>
