@@ -157,7 +157,7 @@ This project is licensed under the MIT License.
 
 ## Copyright
 
-© 2023 Samrat Pahari
+© 2023 Samrat Pahari (CODE-SAMRAT)
 
 
 
